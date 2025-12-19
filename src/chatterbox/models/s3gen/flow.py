@@ -13,16 +13,13 @@
 # limitations under the License.
 import logging
 import random
-from typing import Dict, Optional
-
-logger = logging.getLogger(__name__)
 import torch
 import torch.nn as nn
+from typing import Dict, Optional
+
 from torch.nn import functional as F
 from .utils.mask import make_pad_mask
-from .configs import CFM_PARAMS
 from omegaconf import DictConfig
-
 
 logger = logging.getLogger(__name__)
 

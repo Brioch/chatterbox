@@ -1,10 +1,7 @@
 # Copyright (c) 2025 Resemble AI
 # MIT License
 import logging
-from typing import Union, Optional, List
-
-logger = logging.getLogger(__name__)
-
+from typing import Optional
 from tqdm import tqdm
 import torch
 import torch.nn.functional as F
@@ -26,7 +23,6 @@ from .llama_configs import LLAMA_CONFIGS
 from .inference.t3_hf_backend import T3HuggingfaceBackend
 from .inference.alignment_stream_analyzer import AlignmentStreamAnalyzer
 from ..utils import AttrDict
-
 
 logger = logging.getLogger(__name__)
 

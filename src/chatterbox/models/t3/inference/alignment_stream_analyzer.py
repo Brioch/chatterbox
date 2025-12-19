@@ -4,7 +4,6 @@
 import logging
 import torch
 from dataclasses import dataclass
-from types import MethodType
 
 
 logger = logging.getLogger(__name__)

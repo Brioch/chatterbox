@@ -17,11 +17,11 @@
 
 """HIFI-GAN"""
 
-from typing import Dict, Optional, List
-import numpy as np
-from scipy.signal import get_window
 import torch
 import torch.nn.functional as F
+import numpy as np
+from typing import Dict, Optional, List
+from scipy.signal import get_window
 from torch.nn import Conv1d
 from torch.nn import ConvTranspose1d
 from torch.nn.utils import remove_weight_norm

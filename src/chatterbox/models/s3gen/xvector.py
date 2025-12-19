@@ -5,11 +5,11 @@
 # Modified from 3D-Speaker (https://github.com/alibaba-damo-academy/3D-Speaker)
 
 
-from collections import OrderedDict
 import torch
 import torch.nn.functional as F
 import torch.utils.checkpoint as cp
 import torchaudio.compliance.kaldi as Kaldi
+from collections import OrderedDict
 
 
 def pad_list(xs, pad_value):
